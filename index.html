@@ -1,0 +1,188 @@
+<!DOCTYPE html> 
+<!--
+Author:             كرار السعيدي
+Email:              kararalsaidi@gmail.com
+Website:            https://als3idi.com/
+Program:            The Arabic Writer - الكاتب العربي
+Release Date:       2025-03-17
+
+
+-->
+
+
+<html lang="ar" dir="rtl"> 
+
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>الكاتب العربي</title>         
+        
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="الكاتب العربي - اداة لدعم الكتابة بالعربية للبرامج الغير داعمة لها " />
+        <meta property="og:description" content="أداة مجانية لتحويل النصوص العربية للعمل مع برامج التصميم التي لا تدعم اللغة العربية مثل Adobe Photoshop. تحويل تلقائي، دعم التشكيل، وواجهة سهلة الاستخدام." />
+        <meta property="og:image" content="https://iili.io/3Tk3mCv.png" />
+        <meta property="og:url" content="https://arabictool.netlify.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="ar_AR" />
+        <meta property="og:site_name" content="محول النصوص العربية" />
+        
+        <!-- Twitter Card Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="الكاتب العربي - اداة لدعم الكتابة بالعربية للبرامج الغير داعمة لها" />
+        <meta name="twitter:description" content="أداة مجانية لتحويل النصوص العربية للعمل مع برامج التصميم التي لا تدعم اللغة العربية" />
+        <meta name="twitter:image" content="https://iili.io/3Tk3mCv.png" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="style.css"> 
+    </head>     
+    <body> 
+        <div class="notification" id="notification"></div>         
+        <div class="container"> 
+            <header class="header"> 
+                <div class="main-header"> 
+                    <div class="controls-left"> 
+                        <button id="aboutBtn" class="about-btn ripple-effect"> <i class="fas fa-info-circle"></i> 
+                            حول
+                        </button>                         
+                        <div class="theme-switch-wrapper" title="تبديل الوضع المظلم"> 
+                            <label class="theme-switch" for="checkbox"> 
+                                <input type="checkbox" id="checkbox"/> 
+                                <div class="slider round"> <i class="fas fa-sun"></i> <i class="fas fa-moon"></i> 
+                                </div>                                 
+                            </label>                             
+                        </div>                         
+                    </div>                     
+                    <h1 class="main-title"> <i class="fas fa-language text-gradient"></i> 
+                    الكاتب العربي </h1> 
+                </div>                 
+            </header>             
+            <div class="converter-box"> 
+                <div class="converter-grid"> 
+                    <div class="input-section"> 
+                        <label for="inputText" class="input-label"> <i class="fas fa-pencil-alt"></i> 
+                            أدخل النص العربي:
+                        </label>                         
+                        <textarea id="inputText" class="text-area" placeholder="اكتب النص العربي هنا..." data-gramm="false"></textarea> 
+                        <div class="input-note"> <i class="fas fa-info-circle"></i> <span><b>ملاحظة: هذه الاداة تعمل مع  البرامج  التي لا تدعم الكتابة العربية المباشرة</b></span> 
+                        </div>                         
+                        <div class="text-stats"> 
+                            <div class="stat"> <i class="fas fa-font"></i> <span id="charCount">0 حرف</span> 
+                            </div>                             
+                            <div class="separator"></div>                             
+                            <div class="stat"> <i class="fas fa-align-right"></i> <span id="wordCount">0 كلمة</span> 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                    <div class="output-section"> 
+                        <label for="outputText" class="input-label"> <i class="fas fa-text-height"></i> 
+                            النص المحول:
+                        </label>                         
+                        <textarea id="outputText" class="text-area" readonly data-gramm="false"></textarea> 
+                        <div class="action-buttons"> 
+                            <button id="copyBtn" class="action-btn copy-btn ripple-effect"> <i class="fas fa-copy"></i> 
+                                نسخ النص
+                            </button>                             
+                            <button id="clearBtn" class="action-btn clear-btn ripple-effect"> <i class="fas fa-trash-alt"></i> 
+                                حذف النص
+                            </button>                             
+                            <div class="share-buttons"> 
+                                <button class="share-btn ripple-effect" id="shareWhatsapp" title="مشاركة عبر واتساب"> <i class="fab fa-whatsapp"></i> 
+                                </button>                                 
+                                <button class="share-btn ripple-effect" id="shareFacebook" title="مشاركة عبر فيسبوك"> <i class="fab fa-facebook-f"></i> 
+                                </button>                                 
+                                <button class="share-btn ripple-effect" id="shareTwitter" title="مشاركة عبر تويتر"> <i class="fab fa-twitter"></i> 
+                                </button>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </div>             
+            <div class="instructions-card"> 
+                <h3><i class="fas fa-info-circle"></i> تعليمات الاستخدام</h3> 
+                <div class="instructions-sections"> 
+                    <div class="instruction-section"> 
+                        <h4><i class="fas fa-keyboard"></i> الإدخال</h4> 
+                        <ul> 
+                            <li>
+                                <i class="fas fa-pencil-alt"></i> اكتب النص العربي في المربع الأيمن
+                            </li>                             
+                            <li>
+                                <i class="fas fa-magic"></i> سيظهر النص المحول تلقائياً في المربع الأيسر
+                            </li>                             
+                            <li>
+                                <i class="fas fa-keyboard"></i> يمكنك الكتابة مباشرة أو لصق النص
+                            </li>                             
+                            <li>
+                                <i class="fas fa-copy"></i> انسخ النص المحول باستخدام زر النسخ
+                            </li>                             
+                        </ul>                         
+                    </div>                     
+                    <div class="instruction-section"> 
+                        <h4><i class="fas fa-copy"></i> الميزات</h4> 
+                        <ul> 
+                            <li>
+                                <i class="fa-solid fa-font"></i> تحويل تلقائي للنصوص العربية
+                            </li>                             
+                            <li>
+                                <i class="fa-solid fa-desktop"></i> واجهة سهلة الاستخدام
+                            </li>                             
+                            <li>
+                                <i class="fas fa-keyboard"></i> دعم الحركات والتشكيل للكلمات
+                            </li>                             
+                            <li>
+                                <i class="fa-solid fa-moon"></i> وضع ليلي للراحة البصرية
+                            </li>                             
+                        </ul>                         
+                    </div>                     
+                </div>                 
+            </div>             
+            <div id="aboutModal" class="modal"> 
+                <div class="modal-content"> 
+                    <div class="modal-header"> 
+                        <h2><i class="fas fa-info-circle"></i> حول البرنامج</h2> 
+                        <button class="close-btn ripple-effect">
+                            <i class="fas fa-times"></i>
+                        </button>                         
+                    </div>                     
+                    <div class="modal-body"> 
+                        <h3>ما هو محول النصوص العربية؟</h3> 
+                        <p>محول النصوص العربية هو أداة مصممة لمساعدة المصممين العرب في العمل مع البرامج التي لا تدعم اللغة العربية بشكل صحيح، مثل Adobe Photoshop وبرامج التصميم الأخرى.</p> 
+                        <h3>المميزات الرئيسية:</h3> 
+                        <ul> 
+                            <li>
+                                <i class="fas fa-check"></i> تحويل تلقائي للنصوص العربية
+                            </li>                             
+                            <li>
+                                <i class="fas fa-check"></i> دعم الحركات والتشكيل
+                            </li>                             
+                            <li>
+                                <i class="fas fa-check"></i> واجهة سهلة الاستخدام
+                            </li>                             
+                            <li>
+                                <i class="fas fa-check"></i> وضع ليلي للراحة البصرية
+                            </li>                             
+                            <li>
+                                <i class="fas fa-check"></i> إمكانية المشاركة المباشرة
+                            </li>                             
+                        </ul>                         
+                        <div class="version-info"> 
+                            <p style="font-size: 15px;">تصميم وتطوير <a href="https://www.facebook.com/karar3lsaidi" class="designer-link" style="font-size: 16px;">كرار السعيدي</a></p> 
+                            <p>آخر تحديث: <span id="year"></span></p> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </div>             
+            <footer class="footer"> 
+                <div class="copyright"> 
+                    <p style="font-size: 19px;">برمجة وتصميم&nbsp;<a href="https://www.facebook.com/karar3lsaidi" class="designer-link" style="font-size: 20px;">كرار السعيدي</a></p> 
+                    <p>جميع الحقوق محفوظة &copy; <span id="year"></span></p>
+                    <div class="social-links"> <a href="https://www.facebook.com/karar3lsaidi" target="_blank" rel="noopener" class="social-link ripple-effect"> <i class="fab fa-facebook"></i> </a> <a href="https://www.instagram.com/karar3lsaidi" target="_blank" rel="noopener" class="social-link ripple-effect"> <i class="fab fa-instagram"></i> </a> <a href="https://www.behance.net/karar3lsaidi" target="_blank" rel="noopener" class="social-link ripple-effect"> <i class="fab fa-behance"></i> </a> <a href="https://github.com/karar3lsaidi" target="_blank" rel="noopener" class="social-link ripple-effect"> <i class="fab fa-github"></i> </a> 
+                    </div>                     
+                </div>                 
+            </footer>             
+        </div>         
+        <script src="script.js"></script>         
+    </body>     
+</html>
