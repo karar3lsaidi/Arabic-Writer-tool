@@ -7,6 +7,16 @@
 
 ---
 
+## 💻 التقنيات المستخدمة (Technologies)
+
+تم بناء هذه الأداة باستخدام تقنيات الويب القياسية لضمان الخفة والسرعة:
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+---
+
 ## ✨ الميزات (Features)
 
 * **تحويل تلقائي:** معالجة فورية للنصوص العربية لتظهر بشكل متصل وصحيح.
@@ -27,15 +37,22 @@
 
 ---
 
-## 🛠️ التثبيت والتشغيل (Installation)
+## 🇬🇧 About the Project
 
-لتحميل المشروع وتشغيله على جهازك:
+**Arabic Writer Tool** is a utility designed to fix disjointed Arabic text in software that lacks proper RTL (Right-to-Left) support, such as **Affinity products**. It reshapes Arabic letters so they connect correctly when pasted into these applications.
 
-```bash
-# انسخ المستودع
-git clone [https://github.com/karar3lsaidi/Arabic-Writer-tool.git](https://github.com/karar3lsaidi/Arabic-Writer-tool.git)
+### Built With:
+* HTML5
+* CSS3
+* JavaScript
 
-# ادخل لمجلد المشروع
-cd Arabic-Writer-tool
+---
 
-# (أضف هنا أمر التشغيل المناسب حسب لغة البرمجة المستخدمة، مثلاً: open index.html)
+## 👤 المؤلف (Author)
+
+تم تصميم وتطوير هذه الأداة بواسطة **كرار السعيدي**.
+
+* GitHub: [@karar3lsaidi](https://github.com/karar3lsaidi)
+
+---
+
