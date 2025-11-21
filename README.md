@@ -10,8 +10,9 @@
 
 <a href="https://ibb.co/SwCnY6X2"><img src="https://i.ibb.co/tprsjHMS/image.jpg" alt="image" border="0"></a>
 
-<a href="https://ibb.co/yB0rVLwS"><img src="https://i.ibb.co/2YqT5XDN/Screenshot-2025-11-21-115631.png" alt="Screenshot-2025-11-21-115631" border="0"></a>
+<a href="https://ibb.co/wNnDg4pH"><img src="https://i.ibb.co/0j0P2rYN/image.jpg" alt="image" border="0"></a>
 
+<a href="https://ibb.co/5WK0YV23"><img src="https://i.ibb.co/SXfjQpJg/1.jpg" alt="1" border="0"></a>
 ## 🌐 تجربة الأداة (Live Demo)
 
 يمكنك استخدام الأداة مباشرة من خلال المتصفح دون الحاجة لتحميل أي ملفات:
