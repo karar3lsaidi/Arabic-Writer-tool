@@ -8,7 +8,6 @@
 
 ---
 
-<a href="https://ibb.co/SwCnY6X2"><img src="https://i.ibb.co/tprsjHMS/image.jpg" alt="image" border="0"></a>
 
 <a href="https://ibb.co/wNnDg4pH"><img src="https://i.ibb.co/0j0P2rYN/image.jpg" alt="image" border="0"></a>
 
