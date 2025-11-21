@@ -2,14 +2,24 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-Active-success.svg)]()
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://karar3lsaidi.github.io/Arabic-Writer-tool/)
 
 **الكاتب العربي** هي أداة مصممة لحل مشكلة الكتابة باللغة العربية في البرامج التي لا تدعم الأحرف العربية المتصلة أو الاتجاه من اليمين لليسار (RTL) بشكل صحيح، مثل برامج **Affinity Designer**, **Affinity Photo**، وغيرها من التطبيقات التي تظهر فيها الحروف العربية متقطعة أو معكوسة.
 
 ---
 
+<a href="https://ibb.co/SwCnY6X2"><img src="https://i.ibb.co/tprsjHMS/image.jpg" alt="image" border="0"></a>
+## 🌐 تجربة الأداة (Live Demo)
+
+يمكنك استخدام الأداة مباشرة من خلال المتصفح دون الحاجة لتحميل أي ملفات:
+
+### [🔗 اضغط هنا لفتح الكاتب العربي](https://karar3lsaidi.github.io/Arabic-Writer-tool/)
+
+---
+
 ## 💻 التقنيات المستخدمة (Technologies)
 
-تم بناء هذه الأداة باستخدام تقنيات الويب القياسية لضمان الخفة والسرعة:
+تم بناء هذه الأداة بواسطة **كرار السعيدي** باستخدام تقنيات الويب القياسية:
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -41,6 +51,8 @@
 
 **Arabic Writer Tool** is a utility designed to fix disjointed Arabic text in software that lacks proper RTL (Right-to-Left) support, such as **Affinity products**. It reshapes Arabic letters so they connect correctly when pasted into these applications.
 
+### 🔗 [Try it Live Here](https://karar3lsaidi.github.io/Arabic-Writer-tool/)
+
 ### Built With:
 * HTML5
 * CSS3
@@ -56,3 +68,11 @@
 
 ---
 
+## 🤝 المساهمة (Contributing)
+
+المساهمات مرحب بها! لتطوير الأداة، لا تتردد في فتح (Issue) أو إرسال (Pull Request) عبر الرابط:
+[https://github.com/karar3lsaidi/Arabic-Writer-tool](https://github.com/karar3lsaidi/Arabic-Writer-tool)
+
+## 📄 الرخصة (License)
+
+هذا المشروع مرخص بموجب رخصة MIT.
