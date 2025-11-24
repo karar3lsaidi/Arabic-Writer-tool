@@ -8,10 +8,13 @@
 
 ---
 
+![صورة Arabic Writer Tool](https://raw.githubusercontent.com/karar3lsaidi/Arabic-Writer-tool/refs/heads/main/Arabic%20Writer%20tool%20.jpg)
 
-<a href="https://ibb.co/wNnDg4pH"><img src="https://i.ibb.co/0j0P2rYN/image.jpg" alt="image" border="0"></a>
+# مثال على استخدام الاداة في حل مشكلة الكتابة باللغة العربية
+![صورة Affinity](https://raw.githubusercontent.com/karar3lsaidi/Arabic-Writer-tool/refs/heads/main/Affinity.jpg)
 
-<a href="https://ibb.co/5WK0YV23"><img src="https://i.ibb.co/SXfjQpJg/1.jpg" alt="1" border="0"></a>
+
+
 ## 🌐 تجربة الأداة (Live Demo)
 
 يمكنك استخدام الأداة مباشرة من خلال المتصفح دون الحاجة لتحميل أي ملفات:
@@ -50,18 +53,6 @@
 
 ---
 
-## 🇬🇧 About the Project
-
-**Arabic Writer Tool** is a utility designed to fix disjointed Arabic text in software that lacks proper RTL (Right-to-Left) support, such as **Affinity products**. It reshapes Arabic letters so they connect correctly when pasted into these applications.
-
-### 🔗 [Try it Live Here](https://karar3lsaidi.github.io/Arabic-Writer-tool/)
-
-### Built With:
-* HTML5
-* CSS3
-* JavaScript
-
----
 
 ## 👤 المؤلف (Author)
 
